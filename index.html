@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P-Ticket</title>
+
+    <!-- DaisyUI link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- font awesome icon -->
+    <script src="https://kit.fontawesome.com/7177d7b859.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="md:container mx-auto my-12">
+        <nav class="mx-4">
+            <div class="navbar bg-base-100">
+                <div class="w-[40%]">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Destination</a></li>
+                            <li><input type="search" placeholder="Search" class="w-16"></li>
+                        </ul>
+                    </div>
+                    <h1 class="text-xl lg:text-4xl font-extrabold font-raleway">P-Ticket</h1>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-base space-x-14">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Destination</a></li>
+                        <li><input type="search" placeholder="Search"></li>
+                    </ul>
+                </div>
+                <div class="bg-[#1DD1001A] lg:ml-60 ml-20 rounded-2xl">
+                    <p class=" text-[#1DD10066] text-xl font-bold pl-8 lg:pl-4 pr-4 py-4">Bus</p>
+                    <img class="pr-8" src="images/bus-icon.png" alt="">
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="banner mx-5 lg:mx-48">
+            <div class="hero bg-[url(../images/banner.png)] rounded-3xl lg:h-[750px] bg-cover">
+                <div class="hero-content text-center text-neutral-content">
+                    <div class="">
+                        <h1 class="lg:leading-[86px] lg:text-6xl text-3xl font-extrabold mb-4 mt-5 ">End-to-End Travel with <br><span
+                                class="text-[#1DD100]">P Paribahan</span></h1>
+                        <p class="mb-8 lg:px-20 lg:w-[690px] text-white text-lg leading-7">Discover travel bliss with P.Paribahan – where safety meets comfort, making every journey memorable and reliable for you</p>
+                        <button class="btn-primary bg-[#1DD100] px-4 lg:px-8 py-4 font-bold text-black rounded-2xl lg:text-xl text-sm">Buy Tickets</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
