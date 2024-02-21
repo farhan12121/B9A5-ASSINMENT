@@ -9,9 +9,9 @@ function setPriceSection(seatNumber){
     const seatClass = document.createElement('td');
     const seatPrice = document.createElement('td');
 
-    SeatNum.classList.add('py-4' , 't-Data');
+    seatNum.classList.add('py-4' , 't-Data');
     seatPrice.classList.add('text-right');
-    SeatNum.innerText = seatNumber;
+    seatNum.innerText = seatNumber;
     seatClass.innerText = 'Economy';
     seatPrice.innerText = '550';
 
